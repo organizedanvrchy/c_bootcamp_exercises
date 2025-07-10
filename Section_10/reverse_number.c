@@ -22,7 +22,7 @@ int main() {
         printf("\nEnter a 3-digit number: ");
         scanf("%d", &num);
 
-        if(!(int)num) {
+        if(num > 0) {
             printf("Invalid input. Please try again...\n");
         } else if(num > 999) {
             printf("Number too long! Please try again...\n");
