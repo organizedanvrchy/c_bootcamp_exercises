@@ -3,4 +3,12 @@
 */.dSYM
 .DS_Store
 .vscode/
-
+.o
+*.out
+*.exe
+*.a
+*.so
+*.dll
+*.swp
+*~
+core
