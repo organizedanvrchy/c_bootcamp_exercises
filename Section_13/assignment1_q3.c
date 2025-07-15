@@ -4,9 +4,9 @@
 void order_check(int num) {
     int first_digit, second_digit, third_digit;
 
-    first_digit = num/100;
-    second_digit = (num%100)/10;
-    third_digit = (num%100)%10;
+    first_digit = num / 100;
+    second_digit = (num % 100) / 10;
+    third_digit = num % 10;
 
     if(first_digit < second_digit && second_digit < third_digit) {
         printf("ASCENDING");
